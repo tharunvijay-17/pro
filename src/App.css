@@ -1,0 +1,4 @@
+/* App-level reset — no extra styles needed; design is in index.css */
+* {
+  box-sizing: border-box;
+}

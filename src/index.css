@@ -1,0 +1,58 @@
+/* ============================================================
+   Global Design System — Romantic / Love Theme
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400&display=swap');
+
+/* ── CSS Variables ── */
+:root {
+  --cream:        #FAF4EE;
+  --blush:        #F5E6DF;
+  --rose:         #D4897A;
+  --rose-light:   #EDB8AB;
+  --green:        #3D6E5A;
+  --green-light:  #5E8F77;
+  --text-dark:    #2C2C2C;
+  --text-mid:     #5A4A44;
+  --text-soft:    #8E7B75;
+  --gold:         #C9A96E;
+  --gold-light:   #E8D5A3;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Jost', 'Helvetica Neue', sans-serif;
+
+  --max-mobile: 430px;
+  --radius-sm:  8px;
+  --radius-md:  16px;
+  --radius-lg:  32px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--cream);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Utility ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+}
