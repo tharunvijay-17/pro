@@ -7,7 +7,7 @@ dist/
 # local env files
 .env
  
-# OS files
+# OS files  
 .DS_Store
 
 # logs
